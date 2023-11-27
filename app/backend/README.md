@@ -10,6 +10,6 @@ In this folder, execute the following Powershell Commands:
 3. Migrate Django manage.py
     python manage.py migrate
 
-4. Start the Django Server
+4. Start the *Django Server*
     python manage.py runserver
     (To specify a port, put its number after "runserver")
