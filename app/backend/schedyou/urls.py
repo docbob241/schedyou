@@ -1,4 +1,6 @@
-from django.http import HttpResponse
+from django.urls import path
+from schedyou import views
 
-def home(request):
-    return HttpResponse("Hello, Django!")
+urlpatterns = [
+    path("", views.home, name="home"),
+]
